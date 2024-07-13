@@ -1,0 +1,85 @@
+body {
+    padding-top: 40px;
+    background: #4b4e55
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.card {
+    background-color: #3e4045;
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.avatar-md {
+    height: 5rem;
+    width: 5rem;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.primary-link {
+    color: #fff;
+    font-weight: bold;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+a {
+    color: #eff0f2;
+    text-decoration: none;
+}
+
+.bookmark-post .favorite-icon a,
+.job-box.bookmark-post .favorite-icon a {
+    background-color: #da3746;
+    color: #fff;
+    border-color: danger;
+}
+
+.favorite-icon a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #eff0f2;
+    border-radius: 6px;
+    color: rgba(173, 181, 189, .55);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.text-muted {
+    color: #c6cade !important;
+}
+
+.candidate-list-box .favorite-icon {
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.bg-soft-secondary {
+    background-color: rgba(155, 161, 187, 0.15) !important;
+    color: #c6cade !important;
+}
+
+.mt-1 {
+    margin-top: 0.25rem !important;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #eff0f2;
+    text-align: center;
+}
